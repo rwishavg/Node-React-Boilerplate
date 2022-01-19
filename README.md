@@ -5,6 +5,7 @@
    <img src="https://img.shields.io/badge/Name%20-%20Repository-darkgreen?style=for-the-badge" />
    <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
    <img src="https://img.shields.io/badge/By-Rwishav-blue?style=for-the-badge" /><br>
+   <img src="https://img.shields.io/badge/By-Raghav-red?style=for-the-badge" /><br>
    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" />
     <br>
    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?logo=Microsoft%20Word&style=for-the-badge" /><br>
@@ -58,18 +59,21 @@
 <div align="center"> 
   <img src="https://img.shields.io/badge/Tech%20Stack%20Used-chocolate?logo=Tesla&style=for-the-badge" /> 
 </div>
-```
-JavaScript
-```
-```
-ReactJS
-```
-```
-NodeJS
-```
-```
-MongoDB
-```
+
+#### JavaScript :
+  
+  ```
+    ES7+
+  - ReactJS
+  - Express
+  - NodeJS
+  
+  Database
+  - MongoDB
+  
+  Deployment
+  - NIL
+  ```
   <br>
   
   <div align="center"> 
