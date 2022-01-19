@@ -7,13 +7,13 @@ function Submit() {
     })
 
     const inputsHandler = (e) =>{
-        setInputField( {[e.target.data]: e.target.value} )
+        setInputField({data: e.target.value} )
     }
 
     const submitButton = () =>{
         fetch('http://localhost:8000/api/add-new-post', {
             method: 'POST',
-            body: JSON.stringify({ inputField }),
+            body: JSON.stringify(inputField),
             headers: { 'Content-Type': 'application/json' },
         })
         .then(res => res.json())
