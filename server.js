@@ -24,18 +24,19 @@ if (process.env.NODE_ENV === "production") {
   //   res.send("asdasd")
   // });
       app.post('/api/add-new-post', async (req,res)=>{
-      const myName = req.body.Name;
-      try{
-          const newData = new schema(
-              {
-                  Name: myName
-              }
-          )
-          const saveData = await newData.save()
-      }catch(err){
-          res.json(err);
-      }
-})
+          const myName = req.body.data;
+          try{
+              const newData = new schema(
+                  {
+                      Name: myName
+                  }
+              )
+              const saveData = await newData.save()
+              console.log(myName)
+          }catch(err){
+              res.json(err);
+          }
+      })
   app.get('/api/data', function(req, res) {
     // console.log('body is ',req.body);
     res.send({"name":"John", "age":30, "car":null});

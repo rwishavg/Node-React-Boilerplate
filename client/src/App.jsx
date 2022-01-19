@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import React, { useState, useEffect } from 'react';
+import Form from './Components/Form'
 import './App.css';
 // import Data from './Components/Data';
 function App() {
-    const [state, setState] = useState({})
+    const [state, setState] = useState([{}])
     useEffect(() => {
         const url = "http://localhost:8000/api/data";
 
@@ -21,7 +22,11 @@ function App() {
     })
     return (
         <>
-            {state.age}        
+            <div>
+              {state.name}
+              <br/>
+              <Form />
+            </div>        
         </>
     )
 
