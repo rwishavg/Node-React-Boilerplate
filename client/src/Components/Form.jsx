@@ -7,7 +7,7 @@ function Submit() {
     })
 
     const inputsHandler = (e) =>{
-        setInputField( {[e.target.name]: e.target.value} )
+        setInputField( {[e.target.data]: e.target.value} )
     }
 
     const submitButton = () =>{
