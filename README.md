@@ -50,7 +50,15 @@
    ```
    npm install
    ```
-
+   ```
+   Create: /utils/config.env
+   ```
+   ```
+   Add the following in config.env:
+   PORT=
+   MONGO=
+   NODE_ENV=
+   ```
    ```
    npm run both
    ```
